@@ -1,4 +1,4 @@
-public class Java_classes {
+public class Java_classes_1 {
 
     
     public static void main(String[] args) {
