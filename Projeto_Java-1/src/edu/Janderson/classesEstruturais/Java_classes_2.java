@@ -1,4 +1,7 @@
+package edu.Janderson.classesEstruturais;
 public class Java_classes_2 {
+
+//Segundo código. Introdução a variáveis e métodos.
 
 // Variáveis 
 //  Tipo / NomeDaVariavel = atribuicao (opcinal em alguns casos)
