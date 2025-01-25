@@ -19,6 +19,9 @@ public class Java_Operadores_1 {
         boolean doadorOrgao = false;
         Date dataNascimento = new Date();
 
+
+
+
         // Operadores Matemáticos
         double soma = 10.5 + 15.8;
         int subtracao = 100 - 82;
@@ -26,6 +29,10 @@ public class Java_Operadores_1 {
         int divisao = 15 / 5;
         int modulo = 18 % 3;
         double resultado = (10 * 8) + (20 / 5);
+
+
+
+
 
         // classe Operadores.java
         String nomeCompleto = "LINGUAGEM" + "JAVA";
@@ -42,6 +49,11 @@ public class Java_Operadores_1 {
         concatenacao = "1" + 1 + 1 + 1; // = 1111
         System.out.println(concatenacao);
         concatenacao = "1" + (1 + 1 + 1); // = 13
+
+
+
+
+
 
         // classe Operadores.java
         int numero = 5;
@@ -64,24 +76,30 @@ public class Java_Operadores_1 {
         boolean verdadeiro = true;
         System.out.println("Inverteu " + !verdadeiro);
 
-        // // classe Operadores.java
-        // int a, b;
 
-        // a = 5;
-        // b = 6;
+
+
+
+        // // classe Operadores.java
+        int a, b;
+        String resultadoComparacao;
+        
+       a = 5;
+       b = 6;
 
         // /* EXEMPLO DE CONDICIONAL UTILIZANDO UMA ESTRUTURA IF/ELSE
-        // if(a==b)
-        // resultado = "verdadeiro";
-        // else
-        // resultado = "falso";
-        // */
 
-        // //MESMA CONDICIONAL, MAS DESSA VEZ, UTILIZANDO O OPERADOR CONDICIONAL
-        // TERNÁRIO
-        // String resultado = (a==b) ? "verdadeiro" : "false";
+         if(a==b){
+            resultadoComparacao = "Vedaddeiro";
+            System.out.println( resultadoComparacao);
+         }
+         else{
+            resultadoComparacao = "falso";
+            System.out.println( resultadoComparacao);
+         }
 
-        // System.out.println(valor);
+        
+
 
         // classe Operadores.java
         int numero1 = 1;
@@ -101,5 +119,40 @@ public class Java_Operadores_1 {
 
         if (numero1 != numero2)
             System.out.print("Numero 1 é diferente de numero 2");
-    }
+            
+            // == Quando desejamos verificar se uma variável é IGUAL A outra.
+            // != Quando desejamos verificar se uma variável é DIFERENTE da outra.
+            // > Quando desejamos verificar se uma variável é MAIOR QUE a outra.
+            // >= Quando desejamos verificar se uma variável é MAIOR OU IGUAL a outra.
+            // < Quando desejamos verificar se uma variável é MENOR QUE outra.
+            // <= Quando desejamos verificar se uma variável é MENOR OU IGUAL a outra.
+
+
+
+         // ComparacaoAvancada.java
+         int numero158 = 130;
+         int numero2585 = 130;
+         System.out.println(numero158 == numero2585); //true
+
+         System.out.println(numero158 != numero2585); //false
+          
+
+
+
+
+         // Operadores.java
+         boolean condicao1=true;
+         boolean condicao2=false;
+
+         //  && Operador Lógico "E"
+          // || Operador Lógico "OU"
+
+         if(condicao1 && condicao2)
+	        System.out.print("Os dois valores precisam ser verdadeiros");;
+
+         //Se condicao1 OU condicao2 for verdadeira, executar código.
+         if(condicao1 || condicao2)
+	        System.out.print("Um dos valores precisa ser verdadeiro");
+            }
+
 }
