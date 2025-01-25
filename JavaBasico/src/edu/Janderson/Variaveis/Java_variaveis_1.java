@@ -1,4 +1,4 @@
-package edu.Janderson.classesVariaveis;
+package edu.Janderson.Variaveis;
 
 public class Java_variaveis_1 {
     

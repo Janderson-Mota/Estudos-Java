@@ -1,4 +1,4 @@
-package edu.Janderson.classesOperadores;
+package edu.Janderson.Operadores;
 
 import java.util.Date;
 

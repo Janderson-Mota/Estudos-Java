@@ -1,4 +1,4 @@
-package edu.Janderson.classesEstruturais;
+package edu.Janderson.Estrutura;
 public class Java_classes_1 {
 
     //Primeiro código.
