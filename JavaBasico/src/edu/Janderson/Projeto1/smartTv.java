@@ -1,4 +1,4 @@
-package edu.Janderson.Projetos;
+package edu.Janderson.Projeto1;
 
 public class smartTv {
      boolean ligada= false;

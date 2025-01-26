@@ -1,4 +1,4 @@
-package edu.Janderson.Projetos;
+package edu.Janderson.Projeto1;
 
 public class Usuario {
 
@@ -27,8 +27,8 @@ public static void main(String[] args) {
           smartTv.aumentarVolume();{
                System.out.println("Volume aumentando para : " + smartTv.volume);}
 
-               smartTv.diminuirVolume();{
-                    System.out.println("Volume diminuindo para : " + smartTv.volume);}
+           smartTv.diminuirVolume();{
+               System.out.println("Volume diminuindo para : " + smartTv.volume);}
 
   
   
