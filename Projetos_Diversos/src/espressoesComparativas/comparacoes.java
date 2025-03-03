@@ -22,7 +22,7 @@ public class comparacoes {
 	    
 		
 		// &&(e), ||(ou), !(não);
-	    // &&(e), ||(ou), !(não)
+	   
 		
 		
 

@@ -1,4 +1,4 @@
-package projeto_HelloWord;
+package projeto_HelloWorld;
 
 public class Main {
 
