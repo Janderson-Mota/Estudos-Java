@@ -2,9 +2,10 @@ package admBiblioteca;
 
 public class Biblioteca {
 	
+	
 	private String nome;
 	private String genero;
-	private int quantidade = 0;
+	private int quantidade;
 	
 	public Biblioteca(String nome, String genero, int quantidade) {
 		
@@ -46,9 +47,24 @@ public class Biblioteca {
 	public void setQuantidade(int quantidade) {
 		this.quantidade = quantidade;
 	}
+	
+	public void adicionar (int adicionar) {
+		this.quantidade = this.quantidade + adicionar;
+	}
+	
+	public void retirar (int retirar) {
+		this.quantidade = this.quantidade - retirar;
+	}
 	//Fim Configurações de Quantidades
 	
 	
+	//Tranformando um objeto em String
+	public String toString() {
+		
+		return "Livro : "+ getNome() + "\n"+ 
+				"Gênero: "+ getGenero()  +"\n"+
+				"Quantidade "+ getQuantidade();	
+	}
 	
-
+	
 }

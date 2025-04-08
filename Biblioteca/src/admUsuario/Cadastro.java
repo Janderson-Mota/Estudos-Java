@@ -4,7 +4,7 @@ public class Cadastro {
 
 	private String nome;
 	private String genero;
-	private int idade = 0;
+	private int idade;
 	
 	public Cadastro(String nome, String genero, int idade) {
 		
